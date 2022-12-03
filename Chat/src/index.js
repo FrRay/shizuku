@@ -62,7 +62,7 @@
                 getRandomMsg(dialog.details)
                     .forEach(content => {
                         this.msgChain = this.msgChain
-                            .then(() => delay(100))//old 700
+                            .then(() => delay(700))//old 700
                             .then(() => this.sendMsg(content, AUTHOR.AUTHOR));
                     });
 
