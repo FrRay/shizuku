@@ -58,7 +58,137 @@
                 "<img src='img/end.jpg'>",
                 "哼"
             ]
-        ]
-    }],
+        ],
+        "responses": [{
+            "content": "让我想想",
+            
+            "nextAuthor": ["0002"]
+        }]
+    }, {
+        "id": "0002",
+        "details": [
+            [ ]
+        ],
+        "responses": [{
+            "content": "本人已陷入深思",
+            
+            "nextAuthor": ["0003"]
+        }]
+    }, {
+        "id": "0003",
+        "details": [
+            [ ]
+        ],
+        "responses": [{
+            "content": "跟你在一起的时候我没羡慕过别人",
+            
+            "nextAuthor": ["0004"]
+        }]
+    }, {
+        "id": "0004",
+        "details": [
+            [ ]
+        ],
+        "responses": [{
+            "content": "虽然，你没有经常给我买好吃的，花花，随大流跟着抖音上的，也没有很多小惊喜",
+            
+            "nextAuthor": ["0005"]
+        }]
+    }, {
+        "id": "0005",
+        "details": [
+            [ ]
+        ],
+        "responses": [{
+            "content": "我们在一起好像少了很多仪式感，但多了一点日常，那小小的关心，挂念，细节融入到生活里，充斥着每一天",
+            
+            "nextAuthor": ["0006"]
+        }]
+    }, {
+        "id": "0006",
+        "details": [
+            [ ]
+        ],
+        "responses": [{
+            "content": "这种普通的爱，也是最高境界，可望而不可即的爱。",
+            
+            "nextAuthor": ["0007"]
+        }]
+    }, {
+        "id": "0007",
+        "details": [
+            [ ]
+        ],
+        "responses": [{
+            "content": "生活很无聊，还好你用心",
+            
+            "nextAuthor": ["0008"]
+        }]
+    }, {
+        "id": "0008",
+        "details": [
+            [ ]
+        ],
+        "responses": [{
+            "content": "平常却心安，无聊又惊喜",
+            
+            "nextAuthor": ["0009"]
+        }]
+    }, {
+        "id": "0009",
+        "details": [
+            [ ]
+        ],
+        "responses": [{
+            "content": "这好像就是我从未羡慕过其他情侣的原因叭",
+            
+            "nextAuthor": ["0010"]
+        }]
+    }, {
+        "id": "0010",
+        "details": [
+            [ ]
+        ],
+        "responses": [{
+            "content": "真好",
+            
+            "nextAuthor": ["0011"]
+        }]
+    }, {
+        "id": "0011",
+        "details": [
+            [ ]
+        ],
+        "responses": [{
+            "content": "我喜欢这样，与众不同而又别出心裁的礼物",
+            
+            "nextAuthor": ["0012"]
+        }]
+    }, {
+        "id": "0012",
+        "details": [
+            [ ]
+        ],
+        "responses": [{
+            "content": "要双向奔赴，要永远收藏",
+            
+            "nextAuthor": ["0013"]
+        }]
+    }, {
+        "id": "0013",
+        "details": [
+            [  
+               "同你双向奔赴 永远珍藏",
+               "<img src='img/7.gif'>"
+
+             ]
+        ],
+        "responses": [{
+            "content": null,
+            
+            "nextAuthor": null
+        }]
+    }
+],
     "fromUser": []
 }
