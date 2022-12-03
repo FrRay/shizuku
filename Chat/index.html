@@ -74,7 +74,7 @@
                     v-on:click="togglePrompt(true)"
                     :class="{'clickable': !isTyping }">
                     <span v-if="!isTyping">我想说……</span>
-                    <!-- <span v-if="isTyping">对方正在输入...</span> -->
+                    <span v-if="isTyping">对方正在输入...</span>
                 </div>
             </div>
             <div id="prompt-bg" v-on:click="togglePrompt(false)"></div>
