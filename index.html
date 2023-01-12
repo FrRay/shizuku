@@ -10,15 +10,48 @@
     <title>我们的点滴</title>
     <style>
         body {
-            background-color: rgba(129, 2, 241, 0.195);
+            /* background: "img/bg.jpg"; */
+            background: url("img/bg.jpg") no-repeat center top;
+            background-size: cover;
+            background-attachment: fixed;
+            /* background-color: rgba(129, 2, 241, 0.195); */
             text-align: center
         }
 
         .渐变 {
-            background: linear-gradient(to right, rgb(255, 2, 162), rgba(0, 225, 255, 0.851));
+            background: linear-gradient(to right, rgb(255, 2, 162), rgba(255, 0, 47, 0.748));
             -webkit-background-clip: text;
             color: transparent;
             background-clip: text;
+        }
+
+        .渐变2 {
+            background: linear-gradient(to right, rgb(155, 42, 255), rgba(111, 0, 255, 0.851));
+            -webkit-background-clip: text;
+            color: transparent;
+            background-clip: text;
+        }
+
+        .渐变3 {
+            background: linear-gradient(to right, rgb(53, 255, 42), rgba(241, 239, 243, 0.851));
+            -webkit-background-clip: text;
+            color: transparent;
+            background-clip: text;
+        }
+
+        .渐变4 {
+            background: linear-gradient(to right, rgb(255, 145, 42), rgba(255, 0, 0, 0.851));
+            -webkit-background-clip: text;
+            color: transparent;
+            background-clip: text;
+        }
+
+        .down {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
         }
     </style>
 </head>
@@ -34,6 +67,28 @@
     <h3>
         <a href="Which Eve/index.html" class="渐变">alive tree</a><br>
     </h3>
+    <h3>
+        <a href="2022's chat\index.html" class="渐变">2022's chat report</a>
+    </h3>
+    |<br>
+    |<br>
+    <div class="down">
+
+        Features - 展望未来<br>
+        <h5>
+            <a href="#" class="渐变2">在线记仇小本本</a>
+        </h5>
+        <h5>
+            <a href="#" class="渐变3">微信闹钟</a>
+        </h5>
+        <h5>
+            <a href="#" class="渐变4">今天吃什么</a>
+        </h5>
+        <h5>
+            <a href="#" class="渐变">...</a>
+        </h5>
+        <del>其实都还没做</del>
+    </div>
 </body>
 
 </html>
